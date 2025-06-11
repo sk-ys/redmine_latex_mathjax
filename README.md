@@ -6,7 +6,7 @@ This is a simple little plugin which allows mathematical notation to be used wit
 Requirements
 ------------
 
-Redmine 3.0.x, 3.1.x, 4.0.x or 4.1.x
+Redmine 3.0, 3.1, 4.0, 4.1, 5.0, 5.1 and 6.0.
 Other versions are not tested but may work.
 
 Installation

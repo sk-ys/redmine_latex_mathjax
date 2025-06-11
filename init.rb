@@ -11,7 +11,7 @@ Redmine::Plugin.register :redmine_latex_mathjax do
   version '0.4.0'
 
   settings :default => {
-    'latex_mathjax_url' => '/plugin_assets/redmine_latex_mathjax/mathjax/es5/tex-chtml.js',
+    'latex_mathjax_url' => Redmine::VERSION::MAJOR < 6 ? '/plugin_assets/redmine_latex_mathjax/mathjax/es5/tex-chtml.js' : 'plugin_assets/redmine_latex_mathjax/es5/tex-chtml-redmine6.js',
     'latex_mathjax_inline_delimiter_start' => '$',
     'latex_mathjax_inline_delimiter_end' => '$',
     'latex_mathjax_block_delimiter_start' => '$$',
