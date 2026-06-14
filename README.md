@@ -30,12 +30,14 @@ $mj(\sum_i x_i)$
 
 or a multiline MathJax Syntax:
 
+```
 {{mj()
 P_{POWER} =
 \cfrac
 {U_{POWER}}
 {I_{POWER}}
 }}
+```
 
 Hit 'Preview' or 'Save' to see them appear.
 
